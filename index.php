@@ -21,7 +21,7 @@
       			<div class="col-md-12">
   				
 					<div class="card-body font-weight-bold">
-						<form action="processa_envio.php" method="POST">
+						<form action="processa_envio.php" method="post">
 							<div class="form-group">
 								<label for="para">Para</label>
 								<input name="para" type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">
@@ -34,7 +34,7 @@
 
 							<div class="form-group">
 								<label for="mensagem">Mensagem</label>
-								<textarea name="mansagem" class="form-control" id="mensagem"></textarea>
+								<textarea name="mensagem" class="form-control" id="mensagem"></textarea>
 							</div>
 
 							<button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
